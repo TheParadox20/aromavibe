@@ -19,7 +19,7 @@ export async function POST(req) {
       return Response.json({ error: 'Request body is empty' }, { status: 400 });
     }
 
-    const client = await clientPromise;
+    const client = await clientPromise();
     const db = client.db(process.env.MONGODB_DB_NAME);
     console.log('BODY ::',body);
     const collection = db.collection('items');
@@ -42,7 +42,7 @@ export async function POST(req) {
 
 export async function GET() {
     try {
-      const client = await clientPromise;
+      const client = await clientPromise();
       const db = client.db(process.env.MONGODB_DB_NAME);
       const data = await db.collection('items').find({}).sort({ createdAt: -1 }).toArray();
   
