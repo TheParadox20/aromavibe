@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Belle Éclat",
+      "category": "Floral Fresh",
+      "link": "#",
+      "image": "/perfumes/ZealScents-fragrance-Whispering-Aura.webp",
+      "notesList": "Bergamot · White Rose · Vanilla",
+      "gender": [
+        "female"
+      ],
+      "vibe": [
+        "play",
+        "pause"
+      ],
+      "intensity": [
+        "whisper",
+        "present"
+      ]
+    },
+    {
+      "name": "Luxe Amour",
+      "category": "Floral & Fruity",
+      "link": "#",
+      "image": "/perfumes/ZealScents-fragrance-Velvet-Crimson.webp",
+      "notesList": "Passionfruit · Black Currant · Tuberose · Geranium · Tonka Bean · Amber",
+      "gender": [
+        "female"
+      ],
+      "vibe": [
+        "play",
+        "rewind",
+        "fast-forward"
+      ],
+      "intensity": [
+        "present",
+        "bold"
+      ]
+    },
+    {
+      "name": "Amber Flor'e",
+      "category": "Fruity",
+      "link": "#",
+      "image": "/perfumes/ZealScents-fragrance-Ember-Blossom.webp",
+      "notesList": "Blood Orange · Mandarin · Honey · Orange Blossom · Beeswax · Patchouli",
+      "gender": [
+        "female"
+      ],
+      "vibe": [
+        "pause",
+        "rewind",
+        "next",
+        "record"
+      ],
+      "intensity": [
+        "present"
+      ]
+    },
+    {
+      "name": "Wild Noir",
+      "category": "Fresh Spicy",
+      "link": "#",
+      "image": "/perfumes/ZealScents-fragrance-Vibrant-Surge.webp",
+      "notesList": "Bergamot · Marine Notes · Vetiver · Geranium · Cedar · Labdanum",
+      "gender": [
+        "male"
+      ],
+      "vibe": [
+        "play",
+        "next",
+        "fast-forward"
+      ],
+      "intensity": [
+        "present",
+        "bold"
+      ]
+    },
+    {
+      "name": "Scarlet Rebel",
+      "category": "Warm Spicy",
+      "link": "#",
+      "image": "/perfumes/ZealScents-fragrance-Forest-inferno-f.webp",
+      "notesList": "Cinnamon · Blood Grapefruit · Geranium · Red Thyme · Cedar · Leather",
+      "gender": [
+        "male"
+      ],
+      "vibe": [
+        "fast-forward",
+        "next",
+        "record"
+      ],
+      "intensity": [
+        "present",
+        "bold"
+      ]
+    },
+    {
+      "name": "Barrel & Smoke",
+      "category": "Spicy",
+      "link": "#",
+      "image": "/perfumes/ZealScents-fragrance-Intense-Lure.webp",
+      "notesList": "Tobacco Leaf · Spicy Notes · Vanilla · Cacao · Dried Fruits · Woody Notes",
+      "gender": [
+        "male"
+      ],
+      "vibe": [
+        "pause",
+        "rewind",
+        "record"
+      ],
+      "intensity": [
+        "bold"
+      ]
+    }
+  ]

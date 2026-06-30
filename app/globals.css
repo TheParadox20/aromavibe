@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+:root {
+  --background: #561C25;
+  --foreground: #ffffff;
+  --primary: #A8D5BA;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #561C25;
+    --foreground: #ededed;
+    --primary: #A8D5BA;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* ── Stage entrance — whole panel slides up & fades in ── */
+@keyframes fade-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Individual option rows — shorter travel, used with stagger delays ── */
+@keyframes fade-in-option {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-stage {
+  animation: fade-slide-up 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-option {
+  opacity: 0;
+  animation: fade-in-option 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ── Equalizer bars — ambient "now playing" motion ── */
+@keyframes eq-bounce {
+  0%, 100% { transform: scaleY(0.35); }
+  50%      { transform: scaleY(1); }
+}
+
+.animate-eq {
+  transform-origin: bottom;
+  animation: eq-bounce 0.9s ease-in-out infinite;
+}
+
+/* ── Seek playhead pulse ── */
+@keyframes playhead-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.35); }
+  50%      { box-shadow: 0 0 0 6px rgba(255,255,255,0); }
+}
+
+.animate-playhead {
+  animation: playhead-pulse 1.6s ease-out infinite;
+}
+
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    position: relative;
+  }
+  
+  .glass-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.8),
+      transparent
+    );
+  }
+  
+  .glass-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8),
+      transparent,
+      rgba(255, 255, 255, 0.3)
+    );
+  }
