@@ -5,7 +5,7 @@ import OverlayContainer from "@/app/UI/OverlayContainer";
 // Renders a fake track timestamp like 0:01 from a step index
 const stamp = (s) => `0:${String(Math.max(0, s)).padStart(2, '0')}`;
 
-export default function QuestionBase({ step, totalSteps = 3, label, title, children, onNext, canContinue, onBack }) {
+export default function QuestionBase({ step, totalSteps = 4, label, title, children, onNext, canContinue, onBack }) {
     const progress = (step / totalSteps) * 100;
 
     return (
@@ -13,7 +13,7 @@ export default function QuestionBase({ step, totalSteps = 3, label, title, child
             {/* Seek bar — animates in first */}
             <div className="animate-option" style={{ animationDelay: '30ms' }}>
                 <div className="flex items-center gap-3 mb-8">
-                    <span className="text-white/50 text-[0.7rem] tracking-[0.12em] font-light shrink-0 tabular-nums">
+                    <span className="text-white text-[0.7rem] tracking-[0.12em] shrink-0 tabular-nums">
                         {stamp(step)}
                     </span>
                     <div className="relative flex-1 h-[3px] rounded-full bg-white/[0.12] overflow-visible">
@@ -26,7 +26,7 @@ export default function QuestionBase({ step, totalSteps = 3, label, title, child
                             style={{ left: `${progress}%` }}
                         />
                     </div>
-                    <span className="text-white/40 text-[0.7rem] tracking-[0.12em] font-light shrink-0 tabular-nums">
+                    <span className="text-white text-[0.7rem] tracking-[0.12em] shrink-0 tabular-nums">
                         {stamp(totalSteps)}
                     </span>
                 </div>

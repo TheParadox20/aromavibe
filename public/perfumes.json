@@ -2,8 +2,8 @@
     {
       "name": "Belle Éclat",
       "category": "Floral Fresh",
-      "link": "#",
-      "image": "/perfumes/ZealScents-fragrance-Whispering-Aura.webp",
+      "link": "https://aromavibe.africa/shop/belle-eclat",
+      "image": "/perfumes/Belle-eclat.png",
       "notesList": "Bergamot · White Rose · Vanilla",
       "gender": [
         "female"
@@ -11,6 +11,10 @@
       "vibe": [
         "play",
         "pause"
+      ],
+      "occasion": [
+        "brunch",
+        "date-night"
       ],
       "intensity": [
         "whisper",
@@ -20,8 +24,8 @@
     {
       "name": "Luxe Amour",
       "category": "Floral & Fruity",
-      "link": "#",
-      "image": "/perfumes/ZealScents-fragrance-Velvet-Crimson.webp",
+      "link": "https://aromavibe.africa/shop/luxe-amour/",
+      "image": "/perfumes/Luxe-Amour.png",
       "notesList": "Passionfruit · Black Currant · Tuberose · Geranium · Tonka Bean · Amber",
       "gender": [
         "female"
@@ -31,6 +35,11 @@
         "rewind",
         "fast-forward"
       ],
+      "occasion": [
+        "date-night",
+        "clubbing",
+        "festival"
+      ],
       "intensity": [
         "present",
         "bold"
@@ -39,8 +48,8 @@
     {
       "name": "Amber Flor'e",
       "category": "Fruity",
-      "link": "#",
-      "image": "/perfumes/ZealScents-fragrance-Ember-Blossom.webp",
+      "link": "https://aromavibe.africa/shop/amber-flore/",
+      "image": "/perfumes/Amber-Flore.png",
       "notesList": "Blood Orange · Mandarin · Honey · Orange Blossom · Beeswax · Patchouli",
       "gender": [
         "female"
@@ -51,6 +60,12 @@
         "next",
         "record"
       ],
+      "occasion": [
+        "brunch",
+        "road-trip",
+        "festival",
+        "hiking"
+      ],
       "intensity": [
         "present"
       ]
@@ -58,8 +73,8 @@
     {
       "name": "Wild Noir",
       "category": "Fresh Spicy",
-      "link": "#",
-      "image": "/perfumes/ZealScents-fragrance-Vibrant-Surge.webp",
+      "link": "https://aromavibe.africa/shop/wild-noir/",
+      "image": "/perfumes/Wild-Noir.png",
       "notesList": "Bergamot · Marine Notes · Vetiver · Geranium · Cedar · Labdanum",
       "gender": [
         "male"
@@ -69,6 +84,11 @@
         "next",
         "fast-forward"
       ],
+      "occasion": [
+        "hiking",
+        "road-trip",
+        "brunch"
+      ],
       "intensity": [
         "present",
         "bold"
@@ -77,8 +97,8 @@
     {
       "name": "Scarlet Rebel",
       "category": "Warm Spicy",
-      "link": "#",
-      "image": "/perfumes/ZealScents-fragrance-Forest-inferno-f.webp",
+      "link": "https://aromavibe.africa/shop/scarlet-rebel/",
+      "image": "/perfumes/Scarlet-Rebel.png",
       "notesList": "Cinnamon · Blood Grapefruit · Geranium · Red Thyme · Cedar · Leather",
       "gender": [
         "male"
@@ -88,6 +108,11 @@
         "next",
         "record"
       ],
+      "occasion": [
+        "clubbing",
+        "festival",
+        "road-trip"
+      ],
       "intensity": [
         "present",
         "bold"
@@ -96,8 +121,8 @@
     {
       "name": "Barrel & Smoke",
       "category": "Spicy",
-      "link": "#",
-      "image": "/perfumes/ZealScents-fragrance-Intense-Lure.webp",
+      "link": "https://aromavibe.africa/shop/barrel-smoke/",
+      "image": "/perfumes/Barrel-Smoke.png",
       "notesList": "Tobacco Leaf · Spicy Notes · Vanilla · Cacao · Dried Fruits · Woody Notes",
       "gender": [
         "male"
@@ -106,6 +131,10 @@
         "pause",
         "rewind",
         "record"
+      ],
+      "occasion": [
+        "date-night",
+        "clubbing"
       ],
       "intensity": [
         "bold"

@@ -7,7 +7,7 @@ import gsap from "gsap";
 // ── CONFIGURATION (edit these props or pass them in) ─────────────────────────
 const DEFAULT_IMAGES = [
   {
-    url: "/backgrounds/africa-treasure.jpg",
+    url: "/backgrounds/Aroma-Vibe-landing.jpg",
     caption: "Africa Gift",
   },
   {

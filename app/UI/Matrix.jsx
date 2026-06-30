@@ -27,7 +27,7 @@ export function eliminate(answers) {
 }
 
 export default function Matrix({answers}){
-    const base_categories = ["gender", "intensity", "vibe"];
+    const base_categories = ["gender", "intensity", "vibe", "occasion"];
     return(
         <div className="hidden bg-white/50 backdrop-blur-3xl text-black max-w-[50vw] overflow-y-auto max-h-[60vh] p-7 rounded-2xl fixed bottom-10 left-10 z-40">
             <h6 className="text-2xl mb-4">Perfume Matrix</h6>

@@ -36,10 +36,10 @@ export default function Result({ control, answers }) {
                         <img
                             src={picked.image}
                             alt={picked.name}
-                            className="max-w-[28rem] max-h-[28rem] md:max-w-lg md:max-h-lg lg:max-w-xs lg:max-h-xs 2xl:max-w-lg 2xl:max-h-lg object-contain drop-shadow-xl"
+                            className="max-w-[20rem] max-h-[20rem] object-contain drop-shadow-xl"
                         />
                     </div>
-                    <div className="-mt-16 lg:-mt-10 2xl:-mt-16 text-center">
+                    <div className="text-center mt-7">
                         {/* Now Playing eyebrow with EQ bars */}
                         <div className="flex items-center justify-center gap-2 mb-2">
                             <div className="flex items-end gap-[2px] h-3">

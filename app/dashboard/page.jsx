@@ -22,6 +22,7 @@ export default function SubmissionsPage() {
             <th className="px-4 py-2 border">Gender</th>
             <th className="px-4 py-2 border">Volume</th>
             <th className="px-4 py-2 border">Vibe</th>
+            <th className="px-4 py-2 border">Occasion</th>
             <th className="px-4 py-2 border">Final Suggestion</th>
           </tr>
         </thead>
@@ -35,6 +36,7 @@ export default function SubmissionsPage() {
               <td className="px-4 py-2 border capitalize">{entry.answers?.gender}</td>
               <td className="px-4 py-2 border capitalize">{entry.answers?.intensity}</td>
               <td className="px-4 py-2 border capitalize">{entry.answers?.vibe?.replace(/-/g, ' ')}</td>
+              <td className="px-4 py-2 border capitalize">{entry.answers?.occasion?.replace(/-/g, ' ')}</td>
               <td className="px-4 py-2 border">
                 {
                 entry.final_suggestion ? (
